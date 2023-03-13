@@ -1,7 +1,7 @@
-// CALCULO DE BHASKARA;;;
 // Equação do 2° grau  ->  ax² + bx + c = d   OU   ->  ax² + c = d;
 // Equação de 1° grau  ->  bx + c = 0;
 // RAIZ DA FUNÇÃO 2° GRAU x = (-b+-√(Δ)/2.a;
+// CALCULO DE BHASKARA
 // Δ = b^2-4.a.c;   
 // CASO Δ SEJA NEGATIVO O ALGORITMO IRÁ PARAR.
 // DEFINA OS VALORES DE 'a', 'b', 'c' e 'd'.
