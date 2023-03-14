@@ -35,31 +35,31 @@ if (a === 0) {
     const delta = (b*b)-4*a*resto;
     //!!!!!!!!!!!!LAÇO PARA EQUAÇÃO DE 2° GRAU!!!!!!!!!!!!!!!
     if (delta > 0) {
-    const raizPositiva = ((-b+(Math.sqrt(delta)))/(2*a)).toFixed(2);
-    const raizNegativa = ((-b-(Math.sqrt(delta)))/(2*a)).toFixed(2);
-    console.log("");
-    console.log("     ***CALCULO DE RAÍZ DA FUNÇÃO DE 2° GRAU***");
-    console.log("");
-    console.log(`     Para a função: a = ${a}, b = ${b}, c = ${c}, d = ${d}`);
-    console.log("");
-    console.log(`     Valor de Δ = (${b})²-4.${a}.${resto} = ${delta}.`);
-    console.log("");
-    console.log("     Para raíz positiva.");
-    console.log("");
-    console.log(`     + x = (-(${b})+√(${delta}))/2.${a} = ${raizPositiva}`);
-    console.log(`     + x = ${raizPositiva}`);
-    console.log("");
-    console.log("     Para raíz negativa.");
-    console.log("");
-    console.log(`     - x = (-(${b})-√(${delta}))/2.${a} = ${raizNegativa}`);
-    console.log(`     - x = ${raizNegativa}`);
-    console.log("");
-} else {
-    //!!!!!!!!!!!!DELTA NEGATIVO NÃO TEM SOLUÇÃO!!!!!!!!!!!!!!!
-    console.log("");
-    console.log(`     VALOR DE Δ É NEGATIVO (${delta}), PORTANTO NÃO CONSIDERAMOS CONTINUAR.`);
-    console.log("");
-}
+        const raizPositiva = ((-b+(Math.sqrt(delta)))/(2*a)).toFixed(2);
+        const raizNegativa = ((-b-(Math.sqrt(delta)))/(2*a)).toFixed(2);
+        console.log("");
+        console.log("     ***CALCULO DE RAÍZ DA FUNÇÃO DE 2° GRAU***");
+        console.log("");
+        console.log(`     Para a função: a = ${a}, b = ${b}, c = ${c}, d = ${d}`);
+        console.log("");
+        console.log(`     Valor de Δ = (${b})²-4.${a}.${resto} = ${delta}.`);
+        console.log("");
+        console.log("     Para raíz positiva.");
+        console.log("");
+        console.log(`     + x = (-(${b})+√(${delta}))/2.${a} = ${raizPositiva}`);
+        console.log(`     + x = ${raizPositiva}`);
+        console.log("");
+        console.log("     Para raíz negativa.");
+        console.log("");
+        console.log(`     - x = (-(${b})-√(${delta}))/2.${a} = ${raizNegativa}`);
+        console.log(`     - x = ${raizNegativa}`);
+        console.log("");
+    } else {
+        //!!!!!!!!!!!!DELTA NEGATIVO NÃO TEM SOLUÇÃO!!!!!!!!!!!!!!!
+        console.log("");
+        console.log(`     VALOR DE Δ É NEGATIVO (${delta}), PORTANTO NÃO CONSIDERAMOS CONTINUAR.`);
+        console.log("");
+    }
 }
 
 // function raizDaFuncaoPrimeiroGrau() {
